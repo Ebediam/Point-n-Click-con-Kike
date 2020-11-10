@@ -16,7 +16,7 @@ public class AutoMove : MonoBehaviour
 
     void Start()
     {
-        target = new Vector2(-3.0f, 0.0f);
+        target = new Vector2(-3.0f, -0.2f);
         position = gameObject.transform.position;
 
         cam = Camera.main;
